@@ -3,7 +3,7 @@ import React from 'react';
 const ProteinBar = () => {
   return (
     <div>
-      <h1>Protein Bar!</h1>
+      <h1>Here's ya Protein Bar!</h1>
     </div>
   );
 };

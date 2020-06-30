@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import Home from './Home';
 import Pringles from './Pringles';
 import KitKat from './KitKat';
 import ProteinBar from './ProteinBar';
 import NavBar from './NavBar';
+import BackBar from './BackBar';
 
 function App() {
   return (
@@ -17,15 +18,15 @@ function App() {
         </Route>
 
         <Route exact path='/pringles'>
-          <Link exact to='/'>
-            Go back
-          </Link>
+          <BackBar />
           <Pringles />
         </Route>
         <Route exact path='/kitkat'>
+          <BackBar />
           <KitKat />
         </Route>
         <Route exact path='/proteinbar'>
+          <BackBar />
           <ProteinBar />
         </Route>
       </BrowserRouter>

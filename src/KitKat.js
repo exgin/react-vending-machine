@@ -2,7 +2,7 @@ import React from 'react';
 const KitKat = () => {
   return (
     <div>
-      <h1>Kit-Kat</h1>
+      <h1>Here's ya Kit-Kat</h1>
     </div>
   );
 };

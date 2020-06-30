@@ -2,7 +2,7 @@ import React from 'react';
 const Pringles = () => {
   return (
     <div>
-      <h1>Pringles</h1>
+      <h1>Here's ya Pringles</h1>
     </div>
   );
 };
